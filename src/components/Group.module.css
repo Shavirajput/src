@@ -1,0 +1,86 @@
+.rectangle12 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.h3featureTitle35 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.h3featureTitle35Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl) 0 var(--padding-8xl);
+}
+.paragraph5 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+.group3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-89xl) var(--padding-15xl) var(--padding-17xl)
+    var(--padding-14xl);
+  position: relative;
+  gap: var(--gap-xs);
+}
+.maskgroup2Icon,
+.receptionIcon {
+  height: 66px;
+  width: 66px;
+  position: absolute;
+  margin: 0 !important;
+  top: 17px;
+  left: calc(50% - 33px);
+  object-fit: contain;
+  z-index: 1;
+}
+.receptionIcon {
+  height: 112px;
+  width: 112px;
+  top: 0;
+  left: calc(50% - 56px);
+  object-fit: cover;
+  z-index: 2;
+}
+.group10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--text-color);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 450px) {
+  .h3featureTitle35 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

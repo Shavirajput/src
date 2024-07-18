@@ -1,0 +1,31 @@
+.hospital2Icon,
+.maskGroupIcon {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin: 0 !important;
+  top: 21px;
+  left: calc(50% - 30px);
+  object-fit: contain;
+  z-index: 1;
+}
+.hospital2Icon {
+  height: 87px;
+  width: 90px;
+  top: 2px;
+  left: calc(50% - 45px);
+  object-fit: cover;
+  z-index: 2;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--text-color);
+  font-family: var(--font-raleway);
+}
